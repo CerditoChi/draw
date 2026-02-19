@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(to right top, #ff595e, #fbaa4e, #ffca3a, #8ac926, #1982c4, #6a4c93);
+    background-attachment: fixed;
+}
+
+#sr {
+    float: right;
+    margin: 10px;
+    z-index: 2;
+}
+
+canvas {
+    border: 5px solid #0d1b2a;
+    border-radius: 20px;
+    animation-name: bc;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+}
+@keyframes bc {
+    from {
+        box-shadow: 1px 1px 38px #90f1ef;
+    }
+    to {
+        box-shadow: 1px 1px 38px #ffd6e0;
+    }
+}
